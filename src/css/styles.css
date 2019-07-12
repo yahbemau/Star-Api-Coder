@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Star Jedi";
+  src: url("./fonts/Starjedi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Star Jedi', sans-serif;
+  background-image: url('../images/hola.jpg');
+  height: 100vh;
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  padding-top: 90px;
+}
+
+/* .container-main{
+  display: flex;
+} */
+
+
+
+.main-title{
+  color: #ffff;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 30vh;
+
+}
+
+.class-api{
+  font-size: 100px;
+}
+
+.btn-more{
+  display: flex;
+}
+
+.btn{
+  margin: auto;
+}
+
+.form{
+  justify-content: center;
+  margin: auto;
+}
+
+.h2_contact{
+  color: #ffff;
+  margin-left: 20px;
+}
